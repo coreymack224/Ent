@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9bc8f3a9-fe00-4227-93db-257e89685ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderers">
+      <UniqueIdentifier>{047c2eac-c1c1-475c-89f1-95d1849247dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstraction Layer">
+      <UniqueIdentifier>{24cdf3d6-df65-4f50-a10d-9f93b2de4100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstraction Layer\Header Files">
+      <UniqueIdentifier>{2815ecb4-7b81-4e0a-a866-b204a0ddfabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Abstraction Layer\Source Files">
+      <UniqueIdentifier>{8fff9878-57b1-4cfb-844a-5451f35857cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderers\Header Files">
+      <UniqueIdentifier>{e54bd5c5-4d88-4634-986c-609ca811a20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderers\Source Files">
+      <UniqueIdentifier>{65be1c6c-4114-476c-a690-3a4cec71d24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Full Texture">
+      <UniqueIdentifier>{974ffce4-dbf5-49ab-b0a7-f35db56b1dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Primitive">
+      <UniqueIdentifier>{a890cdea-1b6a-41d8-b717-8d201b7dd9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Blit Texture">
+      <UniqueIdentifier>{f09d11bd-1fb3-4dec-be99-e4a0eb934ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{a13b95e5-4a9b-405c-b659-cd7614b2aa62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Header Files">
+      <UniqueIdentifier>{3c71526d-73bb-4e42-9fcb-019d606f7fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Source Files">
+      <UniqueIdentifier>{d1d520b8-8ecc-44c7-89ae-9a36b3614d36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VertexArrayObject.h">
+      <Filter>Abstraction Layer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadFile.h">
+      <Filter>Abstraction Layer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLWindowGLContext.h">
+      <Filter>Abstraction Layer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Abstraction Layer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Abstraction Layer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadTexture.h">
+      <Filter>Abstraction Layer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeBinding.h">
+      <Filter>Abstraction Layer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FullTextureRenderer.h">
+      <Filter>Renderers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveRenderer.h">
+      <Filter>Renderers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererBase.h">
+      <Filter>Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Abstraction Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="BlitTextureRenderer.h">
+      <Filter>Renderers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentBase.h">
+      <Filter>Components\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveComponent.h">
+      <Filter>Components\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Components\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FullTextureComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Events.cpp">
+      <Filter>Abstraction Layer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadFile.cpp">
+      <Filter>Abstraction Layer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadTexture.cpp">
+      <Filter>Abstraction Layer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLWindowGLContext.cpp">
+      <Filter>Abstraction Layer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Abstraction Layer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArrayObject.cpp">
+      <Filter>Abstraction Layer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FullTextureRenderer.cpp">
+      <Filter>Renderers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveRenderer.cpp">
+      <Filter>Renderers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlitTextureRenderer.cpp">
+      <Filter>Renderers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveComponent.cpp">
+      <Filter>Components\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FullTextureComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="primitive_vert.glsl">
+      <Filter>Shaders\Primitive</Filter>
+    </None>
+    <None Include="primitive_frag.glsl">
+      <Filter>Shaders\Primitive</Filter>
+    </None>
+    <None Include="fulltexture_vert.glsl">
+      <Filter>Shaders\Full Texture</Filter>
+    </None>
+    <None Include="fulltexture_frag.glsl">
+      <Filter>Shaders\Full Texture</Filter>
+    </None>
+    <None Include="blittexture_frag.glsl">
+      <Filter>Shaders\Blit Texture</Filter>
+    </None>
+    <None Include="blittexture_vert.glsl">
+      <Filter>Shaders\Blit Texture</Filter>
+    </None>
+  </ItemGroup>
+</Project>

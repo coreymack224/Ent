@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\djcoreycakes\desktop\project\ent\ent\vertexarrayobject.h(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\djcoreycakes\desktop\project\ent\ent\vertexarrayobject.h(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\djcoreycakes\desktop\project\ent\ent\vertexarrayobject.h(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\djcoreycakes\desktop\project\ent\ent\vertexarrayobject.h(34): warning C4018: '<': signed/unsigned mismatch
+  Ent.vcxproj -> C:\Users\djcoreycakes\Desktop\Project\Ent\Debug\Ent.exe
